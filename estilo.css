@@ -1,0 +1,276 @@
+/*
+*
+* @author Italo Daniel
+* @version 0.1
+*/
+
+/* ========================= layout =========================*/
+
+html, body, .capa {
+    height: 100%;
+}
+
+body {
+    background: url('imagens/bandeira-projeto.jpeg'), 
+                url('imagens/ruido.png');
+    background-attachment: fixed;
+    font-family:  Helvetica, Arial, sans-serif ;
+    overflow-x: hidden;
+}
+
+/* -- Barra de navegação -- */
+.img-logo{
+    height: 80px;
+    width: 132px;
+    margin: -20px 0px;
+    display: block;
+    background: url('imagens/projeto-icon.svg') no-repeat
+                #91949638;
+    background-size: contain;
+    color: transparent;
+    border-radius: 100px;
+   
+}
+
+.img-footer{
+    height: 80px;
+    width: 132px;
+
+    display: block;
+    background: url('imagens/android-chrome-192x192.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+
+}
+
+/*nav.navbar-transparente {
+padding: 15px 0px;
+background: rgba(0, 0, 0, 0.6);
+border: none;
+}
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 15px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+    color: #9bf0e1;
+    background: none;
+}
+*/
+
+/* -- Imagem de capa -- */
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: orangered;
+    display: table-cell;
+    vertical-align: middle;
+
+
+
+}
+
+.backtext {
+    background: black;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    width: 50%;
+    margin-left: 390px;
+}
+
+
+
+
+
+/* -- Botões -- */
+.btn-custom {
+    color: orangered;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s;
+    font-weight: bold;
+}
+
+.btn-roxo {
+    background: #c50000;
+}
+
+.btn-roxo:hover {
+    color: white;
+    background: #6d0000;
+
+}
+
+.btn-branco {
+    border: 2px solid orangered;
+}
+
+.btn-branco:hover {
+    color: black;
+    background: orangered;
+}
+
+/* -- seçao serviço -- */
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns {
+    padding: 10px 0px 10px 0px;
+}
+
+/* -- recursos -- */
+#recursos {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg);/* Chrome, Safari, Opera*/
+    padding-left: 80px;
+}
+
+
+/* -- rodape -- */
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+
+}
+
+.item-rede-social {
+    float: right;
+}
+
+
+
+
+/* ========================= Tipografia =========================*/
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#rodape h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+/* Posts */
+
+
+
+#navegacao {
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#area {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#area-principal {
+	width: 720px;
+	margin: 55px auto 10px auto;
+}
+
+#logo {
+	float: left;
+}
+
+#menu {
+	float: right;
+	padding: 10px 0;
+}
+
+#postagem {
+	background: rgb(207, 207, 207);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.verde {
+	color: #b9c941;
+}
+
+.data-postagem {
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-postagem{
+	float: left;
+	margin:0 10px 5px 0;
+    height: 200px;
+    width: 400px;
+}
+
+.postado {
+	border-left: 5px solid #3f3f3f;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+
+.titulo-da-postagem {
+    color: black;
+}
+
