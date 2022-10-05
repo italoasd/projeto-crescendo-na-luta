@@ -10,13 +10,21 @@ html, body, .capa {
     height: 100%;
 }
 
-body {
+.corpo {
     background: url('imagens/bandeira-projeto.jpeg'), 
-                url('imagens/ruido.png');
-    background-attachment: fixed;
-    font-family:  Helvetica, Arial, sans-serif ;
-    overflow-x: hidden;
+                url('imagens/ruido.png')
+                blue;
+                
+  
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
 }
+
+
+
+
 
 /* -- Barra de navegação -- */
 .img-logo{
@@ -43,33 +51,6 @@ body {
 
 }
 
-/*nav.navbar-transparente {
-padding: 15px 0px;
-background: rgba(0, 0, 0, 0.6);
-border: none;
-}
-.navbar-brand {
-    padding: 5px 15px;
-}
-
-.divisor {
-    width: 1px;
-    height: 16px;
-    background: white;
-    margin: 15px 10px;
-}
-
-.navbar-inverse .navbar-nav>li>a, footer .nav a {
-    color: white;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
-    color: #9bf0e1;
-    background: none;
-}
-*/
-
-/* -- Imagem de capa -- */
 
 .capa {
     display: table;
@@ -91,8 +72,11 @@ border: none;
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    width: 50%;
-    margin-left: 390px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s;
+    font-weight: bold;
 }
 
 
@@ -274,3 +258,30 @@ h3 {
     color: black;
 }
 
+@media only screen and (max-width: 678px) {
+    .corpo {
+        background: url('imagens/bandeira-cap-min.jpg'), 
+                    url('imagens/ruido.png')
+                    blue;
+                    
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+    
+  }
+
+}
+
+@media only screen and (max-width: 398px) {
+    .corpo {
+        background: url('imagens/bandeira-projeto-megamin.jpg'), 
+                    url('imagens/ruido.png')
+                    blue;
+                    
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+    
+  }
+
+}
