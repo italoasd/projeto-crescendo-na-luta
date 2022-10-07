@@ -59,7 +59,7 @@ html, body, .capa {
 
 .texto-capa {
     text-align: center;
-    color: orangered;
+    color: blue;
     display: table-cell;
     vertical-align: middle;
 
@@ -85,7 +85,7 @@ html, body, .capa {
 
 /* -- Botões -- */
 .btn-custom {
-    color: orangered;
+    color: blue;
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
@@ -96,23 +96,13 @@ html, body, .capa {
     font-weight: bold;
 }
 
-.btn-roxo {
-    background: #c50000;
-}
-
-.btn-roxo:hover {
-    color: white;
-    background: #6d0000;
-
-}
-
 .btn-branco {
-    border: 2px solid orangered;
+    border: 2px solid blue;
 }
 
 .btn-branco:hover {
     color: black;
-    background: orangered;
+    background: blue;
 }
 
 /* -- seçao serviço -- */
